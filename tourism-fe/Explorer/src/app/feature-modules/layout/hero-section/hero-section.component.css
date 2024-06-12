@@ -1,0 +1,192 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap");
+
+.hero-section-color-font {
+  color: var(--accent-medium);
+  font-weight: bold;
+}
+
+.hero-section-color-button {
+  background-color: var(--accent-medium);
+  border: 0;
+  font-size: medium;
+  padding-left: 25px;
+  padding-right: 25px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  border-radius: 12px;
+}
+
+.hero-section-color-button:active {
+  background-color: var(--text-heading);
+}
+
+.hero-section-text-heading {
+  font-size: calc(2vw + 2vh);
+  color: var(--text-heading);
+  text-space: 10px;
+  line-height: 90%;
+}
+
+.hero-section-text-description {
+  font-size: calc(0.7vw + 0.7vh);
+  line-height: 150%;
+  color: var(--text-gray-light);
+}
+
+.store-button-text-head {
+  font-size: 60%;
+  color: white;
+}
+
+.store-button-text-main {
+  font-size: 100%;
+  color: white;
+  font-weight: medium;
+}
+
+.store-button-text-head,
+.store-button-text-main {
+  line-height: 1;
+}
+
+.store-button {
+  background-color: var(--text-heading);
+  border: 1px lightgray solid;
+  width: 200px;
+  height: 60px;
+  border-radius: 12px;
+}
+
+.store-button:active {
+  background-color: whitesmoke;
+}
+
+.jumbotron {
+  background-image: url("../../../../assets/hero-section/background_line.svg#svgView(preserveAspectRatio(none))");
+  -webkit-background-origin: border;
+  background-size: cover;
+  overflow: visible;
+}
+
+.underline {
+  height: 0px;
+  border: 2px solid var(--accent-medium);
+  border-radius: 2000px;
+}
+
+.nav-link .underline {
+  opacity: 0;
+}
+
+.nav-link:hover {
+  color: black;
+}
+
+.nav-link:focus {
+  font-weight: 600;
+}
+
+.nav-link:focus .underline {
+  opacity: 1;
+  transition: all 0.5 ease-out;
+}
+
+.text-color-primary {
+  color: var(--accent-medium);
+}
+
+.discover-section {
+  background-color: var(--accent-medium);
+}
+
+.discover-section-header {
+  color: white;
+  font-weight: 500;
+  font-size: clamp(60px, 1vw, 60px);
+  line-height: 1;
+}
+
+.discover-section-description {
+  line-height: 1.6;
+  color: white;
+  font-weight: 400;
+  font-size: clamp(18px, 1vw, 36px);
+  word-wrap: break-word;
+}
+
+.highlight-text {
+  color: #be8efd;
+}
+
+.discover-section-button {
+  color: var(--text-secondary);
+  background-color: white;
+  font-weight: 500;
+  font-size: clamp(16px, 1vw, 32px);
+  border-radius: 12px;
+  transition: 600ms ease-in;
+}
+
+.img-wrapper {
+  background-color: lightgray;
+  width: 100%;
+  aspect-ratio: 1/1;
+  border-radius: 16px;
+}
+
+.discover-section-card {
+  width: 95%;
+}
+
+.discover-section-card-header {
+  color: white;
+  font-weight: 500;
+  font-size: clamp(32px, 1vw, 48px);
+}
+
+.discover-section-card-description {
+  line-height: 1.6;
+  color: white;
+  font-weight: 400;
+  font-size: clamp(16px, 1vw, 32px);
+}
+
+.features-section-header {
+  color: black;
+  font-weight: 500;
+  font-size: clamp(40px, 1vw, 48px);
+  line-height: 1;
+}
+
+.features-section-description {
+  color: black;
+  font-weight: 400;
+  font-size: clamp(24px, 1vw, 36px);
+}
+
+.features-section-card {
+  width: 95%;
+  border-radius: 16px;
+  border-color: var(--stroke-light);
+  height: 100%;
+}
+
+.features-section-card-header {
+  color: black;
+  font-size: clamp(16px, 1vw, 32px);
+  padding-top: 30px;
+}
+
+.features-section-card-description {
+  color: var(--text-gray);
+  font-size: clamp(14px, 1vw, 28px);
+  padding-top: 15px;
+  line-height: 1.6;
+}
+
+.features-img-wrapper {
+  background-color: lightgray;
+  width: 100%;
+  aspect-ratio: 3/2;
+  border-radius: 16px;
+}

@@ -1,0 +1,15 @@
+C:\Users\Leopoldina\Desktop\PSW-group5-2023\tourism-be\src\Modules\Tours\Explorer.Tours.API\bin\Debug\net7.0\Explorer.Tours.API.deps.json
+C:\Users\Leopoldina\Desktop\PSW-group5-2023\tourism-be\src\Modules\Tours\Explorer.Tours.API\bin\Debug\net7.0\Explorer.Tours.API.dll
+C:\Users\Leopoldina\Desktop\PSW-group5-2023\tourism-be\src\Modules\Tours\Explorer.Tours.API\bin\Debug\net7.0\Explorer.Tours.API.pdb
+C:\Users\Leopoldina\Desktop\PSW-group5-2023\tourism-be\src\Modules\Tours\Explorer.Tours.API\bin\Debug\net7.0\Explorer.BuildingBlocks.Core.dll
+C:\Users\Leopoldina\Desktop\PSW-group5-2023\tourism-be\src\Modules\Tours\Explorer.Tours.API\bin\Debug\net7.0\Explorer.BuildingBlocks.Core.pdb
+C:\Users\Leopoldina\Desktop\PSW-group5-2023\tourism-be\src\Modules\Tours\Explorer.Tours.API\obj\Debug\net7.0\Explorer.Tours.API.csproj.AssemblyReference.cache
+C:\Users\Leopoldina\Desktop\PSW-group5-2023\tourism-be\src\Modules\Tours\Explorer.Tours.API\obj\Debug\net7.0\Explorer.Tours.API.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Leopoldina\Desktop\PSW-group5-2023\tourism-be\src\Modules\Tours\Explorer.Tours.API\obj\Debug\net7.0\Explorer.Tours.API.AssemblyInfoInputs.cache
+C:\Users\Leopoldina\Desktop\PSW-group5-2023\tourism-be\src\Modules\Tours\Explorer.Tours.API\obj\Debug\net7.0\Explorer.Tours.API.AssemblyInfo.cs
+C:\Users\Leopoldina\Desktop\PSW-group5-2023\tourism-be\src\Modules\Tours\Explorer.Tours.API\obj\Debug\net7.0\Explorer.Tours.API.csproj.CoreCompileInputs.cache
+C:\Users\Leopoldina\Desktop\PSW-group5-2023\tourism-be\src\Modules\Tours\Explorer.Tours.API\obj\Debug\net7.0\Explorer.Tours.API.csproj.CopyComplete
+C:\Users\Leopoldina\Desktop\PSW-group5-2023\tourism-be\src\Modules\Tours\Explorer.Tours.API\obj\Debug\net7.0\Explorer.Tours.API.dll
+C:\Users\Leopoldina\Desktop\PSW-group5-2023\tourism-be\src\Modules\Tours\Explorer.Tours.API\obj\Debug\net7.0\refint\Explorer.Tours.API.dll
+C:\Users\Leopoldina\Desktop\PSW-group5-2023\tourism-be\src\Modules\Tours\Explorer.Tours.API\obj\Debug\net7.0\Explorer.Tours.API.pdb
+C:\Users\Leopoldina\Desktop\PSW-group5-2023\tourism-be\src\Modules\Tours\Explorer.Tours.API\obj\Debug\net7.0\ref\Explorer.Tours.API.dll

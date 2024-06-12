@@ -1,0 +1,258 @@
+<div>
+  <div class="overflow-hidden">
+    <nav class="navbar navbar-expand-lg navbar-light p-5 m-5 pt-0">
+      <a class="navbar-brand hero-section-color-font" href="#">Tour Trekker</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarToggler1"
+        aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarToggler1">
+        <ul class="navbar-nav mx-auto py-2">
+          <li>
+            <a class="nav-link px-3 text-xl-center d-inline-block" href="#">
+              <span class="">FAQ</span>
+              <div class="underline mx-1"></div>
+            </a>
+          </li>
+
+          <li>
+            <a class="nav-link px-3 text-xl-center d-inline-block" href="#">
+              <span class="hover-underline">About Us</span>
+              <div class="underline mx-1"></div>
+            </a>
+          </li>
+
+          <li>
+            <a class="nav-link px-3 text-xl-center d-inline-block" href="#">
+              <span class="">Services</span>
+              <div class="underline mx-1"></div>
+            </a>
+          </li>
+        </ul>
+        <button type="button" class="btn btn-primary my-2 my-sm-0 hero-section-color-button"
+          (click)="navigateToLogin()">
+          Get Started
+          <img src="../../../../assets/hero-section/next_arrow.svg" />
+        </button>
+      </div>
+    </nav>
+
+    <div class="jumbotron">
+      <div class="row align-items-center text-left m-5 p-5 pt-0">
+        <div class="col-md-7 p-0">
+          <h1 class="display-4 font-weight-bold hero-section-text-heading">
+            Discover and explore, <br />
+            one adventure at a time
+          </h1>
+          <p class="lead hero-section-text-description">
+            TourTrekker is a software designed to enhance
+            <span class="text-color-primary">tourists <br />
+              experiences
+            </span>
+            while exploring new destinations.
+          </p>
+          <div class="mt-1">
+            <a href="#" class="btn btn-primary mr-3 me-3 mt-4 store-button">
+              <div class="d-flex flex-row align-items-center justify-content-center mt-2">
+                <img class="" src="../../../../assets/hero-section/app_store.svg" />
+                <div class="d-flex flex-column ms-2 align-items-start">
+                  <div class="store-button-text-head">Download on the</div>
+                  <div class="store-button-text-main">App Store</div>
+                </div>
+              </div>
+            </a>
+            <a href="#" class="btn btn-primary store-button mt-4">
+              <div class="d-flex flex-row align-items-center justify-content-center mt-2">
+                <img src="../../../../assets/hero-section/google_play.svg" />
+                <div class="d-flex flex-column ms-2 align-items-start">
+                  <div class="store-button-text-head">Get it on</div>
+                  <div class="store-button-text-main">Google play</div>
+                </div>
+              </div>
+            </a>
+          </div>
+        </div>
+
+        <div class="col-md-5 mt-5 mt-md-0">
+          <img src="../../../../assets/hero-section/iphone15.png" alt="iPhone Image" class="img-fluid" />
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="overflow-hidden discover-section">
+    <div class="discover-section-header p-3 p-md-5 m-3 mx-md-5 mb-md-2 mt-md-4 pb-md-4">
+      Dive into Wonders of Serbia
+    </div>
+    <div class="row p-3 px-md-5 m-3 mx-md-5 py-md-0 my-md-0 d-flex align-items-center justify-content-between">
+      <div class="col-md-10 p-0 p-md-0 mb-3">
+        <div class="discover-section-description">
+          Serbia, a land
+          <span class="highlight-text fw-regular">rich in history and culture</span>, offers a plethora of sightseeing
+          opportunities for travelers eager
+          to explore its diverse landscapes and landmarks.
+        </div>
+      </div>
+      <div class="col-md-2 d-flex align-items-center justify-content-end p-md-0">
+        <button type="button" (click)="scrollToFeatures()" class="btn discover-section-button h-100 w-100">
+          Learn more
+        </button>
+      </div>
+    </div>
+
+    <div class="d-flex flex-wrap flex-md-nowrap p-3 p-md-5 m-3 m-md-5 mt-md-3">
+      <div class="d-flex flex-column col-12 col-md-4 p-0 mb-md-0 mb-3">
+        <div class="discover-section-card align-self-md-start align-self-center">
+          <div class="img-wrapper"><img /></div>
+          <div class="discover-section-card-header mt-4">Novi Sad</div>
+          <div class="discover-section-card-description mt-4">
+            Whether you're strolling through the cobbled streets of Novi Sad,
+            <span class="highlight-text fw-regular">the charming capital of Vojvodina</span>, to its iconic landmarks,
+            such as Petrovaradinska Tvrdjava or
+            Dunavski park.
+          </div>
+        </div>
+      </div>
+
+      <div class="d-flex flex-column col-12 col-md-4 p-0 mb-md-0 mb-3">
+        <div class="discover-section-card align-self-center">
+          <div class="img-wrapper"><img /></div>
+          <div class="discover-section-card-header mt-4">Belgrade</div>
+          <div class="discover-section-card-description mt-4">
+            From the lively streets of Belgrade,
+            <span class="highlight-text fw-regular">the capital city</span>, to
+            its historic monuments, Serbia offers a myriad of charms centered
+            around Belgrade awaiting exploration.
+          </div>
+        </div>
+      </div>
+
+      <div class="d-flex flex-column col-12 col-md-4 mb-md-0 mb-3">
+        <div class="discover-section-card align-self-md-end align-self-center">
+          <div class="img-wrapper"><img /></div>
+          <div class="discover-section-card-header mt-4">Belgrade</div>
+          <div class="discover-section-card-description mt-4">
+            From the lively streets of Belgrade,
+            <span class="highlight-text fw-regular">the capital city</span>, to
+            its historic monuments, Serbia offers a myriad of charms centered
+            around Belgrade awaiting exploration.
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="overflow-hidden features-section" id="featuresSection" #featuresSection>
+    <div class="features-section-header discover-section-header p-3 p-md-5 m-3 mx-md-5 mb-md-2 mt-md-4 pb-md-4">
+      Features
+    </div>
+    <div class="features-section-description col-md-12 p-3 p-md-5 m-3 mx-md-5 py-md-0 my-md-0">
+      Supported by our application
+    </div>
+
+    <div class="features-section-cards">
+      <div class="d-flex flex-wrap flex-md-nowrap p-3 pb-0 p-md-5 pb-md-0 m-3 mb-0 m-md-5 mt-md-3 mb-md-0">
+        <div class="d-flex flex-column col-12 col-md-4 p-0 mb-md-0 mb-3">
+          <div class="features-section-card d-flex flex-column p-2 p-md-2 align-self-start border border-1">
+            <div class="features-img-wrapper align-self-center">
+              <img />
+            </div>
+            <div class="features-section-card-header d-flex align-items-center justify-content-between mt-3 fw-medium">
+              <div>Interactive Maps</div>
+              <img class="check_mark" src="../../../../assets/hero-section/check_mark.svg" />
+            </div>
+            <div class="features-section-card-description mt-4 fw-regular">
+              Easily navigate through tours with interactive
+              maps to find nearby attractions, collectibles,
+              encounters and more.
+            </div>
+          </div>
+        </div>
+
+        <div class="d-flex flex-column col-12 col-md-4 p-0 mb-md-0 mb-3">
+          <div class="features-section-card d-flex flex-column p-2 p-md-2 align-self-start border border-1">
+            <div class="features-img-wrapper align-self-center">
+              <img />
+            </div>
+            <div class="features-section-card-header d-flex align-items-center justify-content-between mt-3">
+              <div>Offline Access</div>
+              <img class="" src="../../../../assets/hero-section/check_mark.svg" />
+            </div>
+            <div class="features-section-card-description mt-4">
+              Access essential travel information offline, and
+              keep exploring even in areas with limited
+              internet connectivity.
+            </div>
+          </div>
+        </div>
+
+        <div class="d-flex flex-column col-12 col-md-4 p-0 mb-md-0 mb-3 ">
+          <div class="features-section-card d-flex flex-column p-2 p-md-2 align-self-start border border-1">
+            <div class="features-img-wrapper align-self-center">
+              <img />
+            </div>
+            <div class="features-section-card-header d-flex align-items-center justify-content-between mt-3">
+              <div>Personalized Recommendations</div>
+              <img src="../../../../assets/hero-section/check_mark.svg" />
+            </div>
+            <div class="features-section-card-description mt-4">
+              Suggestion system based on your interests,
+              ensuring unique and relevant experiences.
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="d-flex flex-wrap flex-md-nowrap p-3 p-md-5 pt-md-1 pt-1 m-3 m-md-5 mt-md-3 mt-0">
+        <div class="d-flex flex-column col-12 col-md-4 p-0 mb-md-0 mb-3">
+          <div class="features-section-card d-flex flex-column p-2 p-md-2 align-self-start border border-1">
+            <div class="features-img-wrapper align-self-center">
+              <img />
+            </div>
+            <div class="features-section-card-header d-flex align-items-center justify-content-between mt-3">
+              <div>Educational Content</div>
+              <img class="check_mark" src="../../../../assets/hero-section/check_mark.svg" />
+            </div>
+            <div class="features-section-card-description mt-4">
+              Discover Serbia’s rich history and culture with
+              interactive quizzes.
+            </div>
+          </div>
+        </div>
+
+        <div class="d-flex flex-column col-12 col-md-4 p-0 mb-md-0 mb-3">
+          <div class="features-section-card d-flex flex-column p-2 p-md-2 align-self-start border border-1">
+            <div class="features-img-wrapper align-self-center">
+              <img />
+            </div>
+            <div class="features-section-card-header d-flex align-items-center justify-content-between mt-3">
+              <div>Community Engagement</div>
+              <img class="" src="../../../../assets/hero-section/check_mark.svg" />
+            </div>
+            <div class="features-section-card-description mt-4">
+              Connect with travelers, share experiences, and
+              exchange recommendations.
+            </div>
+          </div>
+        </div>
+
+        <div class="d-flex flex-column col-12 col-md-4 p-0 mb-md-0 mb-3">
+          <div class="features-section-card d-flex flex-column p-2 p-md-2 align-self-start border border-1">
+            <div class="features-img-wrapper align-self-center">
+              <img />
+            </div>
+            <div class="features-section-card-header d-flex align-items-center justify-content-between mt-3">
+              <div>Text-to-Speech</div>
+              <img src="../../../../assets/hero-section/check_mark.svg" />
+            </div>
+            <div class="features-section-card-description mt-4">
+              Stay fully immersed in your exploration -
+              activate audio tour narration to keep your
+              focus on the sights.
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
